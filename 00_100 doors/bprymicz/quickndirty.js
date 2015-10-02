@@ -14,9 +14,9 @@ for (var d = 1; d <= 100; d++) {
 
 for (var j = 0; j < 100; j++){
   if (doors[j]) {
-    open.push(j);
+    open.push(j+1);
   } else {
-    closed.push(j);
+    closed.push(j+1);
   }
 }
 
